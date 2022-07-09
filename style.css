@@ -1,0 +1,223 @@
+
+#title{
+  background-color: #FF9000;
+  color: #fff;
+  border-radius: 0% 0% 30% 30%;
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+}
+.navbar{
+  color:#fff;
+  padding: 1rem 7rem;
+
+
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2rem;
+}
+.navbar-nav{
+  color:#fff;
+}
+.headings{
+  padding: 7%;
+  text-align:center;
+}
+.headings h1{
+  padding: 0% 10%;
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.headings p{
+  padding: 0% 25%;
+  margin-top: 5px;
+}
+.column1{
+  display: flex;
+  justify-content:right;
+  align-items: center;
+
+}
+.column2{
+  display: flex;
+  justify-content:left;
+  align-items:center;
+}
+
+.column2 i{
+  font-size: 30px;
+  margin: 2%;
+}
+@media (max-width:767px){
+  #title{
+    border-radius:0% 0% 10% 10%;
+  }
+  .navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+  }
+  .headings h1{
+    font-size: 2.5rem;
+    padding: 0% 5%;
+    /* line-height: 1.5; */
+  }
+  .column1{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+
+  .column2{
+    margin-top: 10px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+  }
+}
+.dp{
+  width: 100px;
+  border-radius: 100px;
+  box-shadow: 2px 3px 6px 2px rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+}
+
+
+.btn-warning{
+  border-radius: 40px;
+}
+.menu{
+  color: red;
+  font-family: sans-serif;
+}
+
+
+/* Services */
+
+#services{
+  padding: 7% 15%;
+}
+#services .row {
+  text-align: center;
+}
+#services h2{
+  color: #FF9000;
+}
+.carousel-inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#services img{
+  width: 40%;
+}
+
+/* project */
+#project{
+  padding: 3% 15% 7% 15%;
+  text-align: center;
+  background-color: #5cdb95;
+  /* background-color: #1A1A1D;  */
+  color: #fff;
+  /* border-radius: 5%; */
+}
+#project h2{
+  margin-bottom: 2rem;
+}
+.project1{
+  height: 100%;
+  width: 100%;
+  border: 3px solid #fff;
+  border-radius: 20px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#project .row{
+  margin-top: 2rem;
+}
+.about-project{
+  margin-top: 1.5rem;
+
+}
+.about-project h1{
+  font-family: "Montserrat-Black";
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/* Pricing */
+#pricing{
+  padding: 7% 15%;
+  background-color: #fff;
+  /* color: #fff; */
+}
+.card1{
+  text-align: center;
+}
+.card2{
+  text-align: center;
+}
+.card2 h3{
+  color:#FF9000;
+}
+.card2 button{
+  color:#FF9000;
+}
+.card3{
+  text-align: center;
+}
+.card3 h3{
+
+  color:#5cdb95;
+}
+.card3 button{
+  color:#5cdb95;
+}
+ .card1,.card2,.card3{
+   border-radius: 7%;
+   margin-top: 2rem;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card1:hover{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  transition-duration: 1s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card2:hover{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  transition-duration: 1s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card3:hover{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  transition-duration: 1s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-header{
+
+}
+/* form */
+
+#form{
+  padding: 0% 15% 0% 15%;
+  text-align: center;
+}
+#form .row{
+  text-align: left;
+}
+.inner h2{
+  padding-bottom: 2rem;
+}
+
+/* footer */
+#footer{
+  padding: 5% 10%;
+  text-align: center;
+  font-size: 2rem;
+}
+#footer i{
+  margin:5px;
+}

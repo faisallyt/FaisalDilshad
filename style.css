@@ -55,6 +55,10 @@
   #title{
     border-radius:0% 0% 10% 10%;
   }
+  .navbar {
+    color: #fff;
+    padding: 1rem 5rem;
+}
   .navbar-brand{
     font-family: "Ubuntu";
     font-size: 1.5rem;
